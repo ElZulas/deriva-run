@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deriva Run</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+    <pre id="game-area">
+        <!-- Aquí irá el arte ASCII y la narrativa del juego -->
+    </pre>
+    <div id="status-bar">
+        <!-- <div id="loot">Loot/Maldiciones: Ninguno</div> -->
+        <div id="vida-bar" style="background-color: red; height: 20px; width: 50%;"></div>
+        <div id="escudo-bar" style="background-color: blue; height: 20px; width: 50%;"></div>
+    </div>
+    <div id="maldiciones" style="color: yellow; margin-top: 10px;">Maldiciones: Ninguna</div>
+    <div id="corrupcion" style="color: orange; margin-top: 10px;">Corrupción: 0%</div>
+    <div id="opciones"></div>
+    <audio id="background-music" src="audio/music.mp3" loop autoplay></audio>
+    <script src="script.js"></script>
+</body>
+</html> 
